@@ -1,0 +1,110 @@
+/* Basic Header Styling */
+.header {
+    background-color: #1e1e2f;
+    color: #fff;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .header_logo{
+    width: 150px;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo1 a {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .nav {
+    display: flex;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #00aaff;
+  }
+  
+  .cta-button {
+    background-color: #00aaff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0088cc;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    /* Hide Navigation and CTA Button */
+    .nav {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      padding-right: 40px;
+    }
+  
+    /* Hamburger Icon Styling */
+    .hamburger div {
+      width: 25px;
+      height: 3px;
+      background-color: #fff;
+      margin: 5px 0 5px 0;
+    }
+  
+    /* Show Navigation Menu when Open */
+    .nav.active {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: #1e1e2f;
+      padding: 20px;
+      margin-right: 20px;
+      /* border-radius: 8px; */
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  

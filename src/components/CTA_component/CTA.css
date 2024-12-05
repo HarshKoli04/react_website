@@ -1,0 +1,68 @@
+.cta-container {
+    background-color: #007bff; /* Primary color for background */
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 4px; /* Rounded corners */
+    margin: 10px auto;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Button styles */
+  .cta-buttons {
+    display: flex;
+    justify-content: center; /* Center buttons */
+    gap: 20px; /* Space between buttons */
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  }
+  
+  .primary {
+    background-color: #28a745; /* Success color */
+    color: white;
+  }
+  
+  .secondary {
+    background-color: #f8f9fa; /* Light gray */
+    color: #007bff; /* Primary color */
+  }
+  
+  /* Hover effects */
+  .primary:hover {
+    background-color: #218838; /* Darker green */
+  }
+  
+  .secondary:hover {
+    background-color: #e2e6ea; /* Lighter gray */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 2rem; /* Smaller font size for mobile */
+    }
+  
+    p {
+      font-size: 1rem; /* Smaller font size for mobile */
+    }
+  
+    .cta-button {
+      padding: 8px 16px; /* Smaller button padding for mobile */
+    }
+  }

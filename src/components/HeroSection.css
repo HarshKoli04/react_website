@@ -1,0 +1,78 @@
+.hero-container {
+    /* background-image: url('path-to-your-background-image.jpg'); Replace with your image path */
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+    text-align: center;
+  }
+  
+  .hero-content {
+    /* background: rgba(0, 0, 0, 0.6); Semi-transparent background */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 90%; /* Responsive max width */
+  }
+  
+  .logo {
+    width: 550px; /* Adjust logo size as needed */
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between buttons */
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .learn-more {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+  }
+  
+  .get-started {
+    background-color: #28a745; /* Bootstrap success color */
+    color: white;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem; /* Smaller font size for mobile */
+    }
+  
+    p {
+      font-size: 1rem; /* Smaller font size for mobile */
+    }
+  
+    .logo {
+      width: 320px; /* Adjust logo size for mobile */
+    }
+  
+    .btn {
+      padding: 8px 16px; /* Smaller button padding for mobile */
+    }
+  }
