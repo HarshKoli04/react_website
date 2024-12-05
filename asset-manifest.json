@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react_website/static/css/main.e076a042.css",
+    "main.js": "/react_website/static/js/main.b32b30b6.js",
+    "static/js/453.f1c44582.chunk.js": "/react_website/static/js/453.f1c44582.chunk.js",
+    "static/media/JGen-Tech-LOGO.png": "/react_website/static/media/JGen-Tech-LOGO.91f03a05c8ed07de8e52.png",
+    "index.html": "/react_website/index.html",
+    "main.e076a042.css.map": "/react_website/static/css/main.e076a042.css.map",
+    "main.b32b30b6.js.map": "/react_website/static/js/main.b32b30b6.js.map",
+    "453.f1c44582.chunk.js.map": "/react_website/static/js/453.f1c44582.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e076a042.css",
+    "static/js/main.b32b30b6.js"
+  ]
+}
